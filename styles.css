@@ -1,3 +1,8 @@
+body {
+    height: 200vh;
+    position: relative;
+}
+
 header {
     height: 80px;
     background-color: black;
@@ -124,10 +129,13 @@ header {
 }
 
 footer {
+    width: 100%;
     background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    position: absolute;
+    bottom: 0;
 }
 
 .lower-logo {
