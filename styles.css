@@ -1,0 +1,150 @@
+header {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.logo {
+    margin-top: 19px;
+    height: 22px;
+    width: 180px;
+}
+
+.left-links {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: row;
+    margin-right: 150px;
+}
+
+.bold {
+    color: white;
+    padding: 10px;
+}
+
+.grey {
+    color: grey;
+    padding: 10px;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.main {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    z-index: 2;
+}
+
+.pic-link {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    opacity: .6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    z-index: 3;
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+}
+
+.replay-button {
+    display: flex;
+    align-items: center;
+}
+
+.zero-link {
+    Width: 100%;
+    height: 50px;
+    background-color: black;
+    opacity: .7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.three-link {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.grey-number {
+    color: grey;
+    margin-right: 10px;
+    font-size: smaller;
+}
+
+.white {
+    color: white;
+    font-size: smaller;
+}
+
+.whitespace {
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.three-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.boxes {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lower-logo {
+    margin-top: 17px;
+    width: 95px;
+    height: 12px;
+}
+
+.foot-text {
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.copyright {
+    color: grey;
+    font-size: small;
+}
